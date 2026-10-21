@@ -1,0 +1,28 @@
+# Operator.io
+
+> Operator.io is a managed platform for deploying and managing an autonomous OpenClaw AI agent on Telegram. Built by Operator Research, Inc. and backed by Y Combinator.
+
+Unlike other agent hosting services that just give you a deploy button, Operator lets you manage and orchestrate your entire fleet through natural language. Chat to create instances, modify their configuration, connect channels, and monitor usage.
+
+Key features:
+
+- Natural language fleet management: create, configure, and orchestrate agents by chatting
+- Run one always-on OpenClaw agent
+- Connect agents to Telegram channels
+- Built-in AI inference and web search (no separate API keys needed)
+- All configuration encrypted at rest (AES-256-GCM)
+- Paid monthly, cancel anytime
+
+## Plans
+
+- **Operator Basic** ($20/mo): 1 agent instance, 1x AI usage
+- **Operator Pro** ($50/mo): 1 agent instance, 5x AI usage, priority support
+- **Operator Max** ($175/mo): 1 agent instance, 20x AI usage, priority support
+
+## Links
+
+- [Homepage](https://operator.io): Landing page and sign-up
+- [Documentation](https://docs.operator.io): Getting started, configuration, and channel setup
+- [Get Started](https://operator.io/onboarding): Choose a plan and set up your agent
+- [Terms of Service](https://operator.io/terms): Terms, billing policy, and data privacy
+- [X / Twitter](https://x.com/operator_io): Support and updates

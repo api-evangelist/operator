@@ -1,23 +1,80 @@
 aid: operator
+
 name: Operator.io
-description: 'Operator.io is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://operator.io/opengraph-image?a147a4b8ee9c7ad
+
+description: 'Operator.io provides an AI-powered chief of staff platform that automates email management, calendar scheduling, research, and follow‑ups across popular tools. Backed by Y Combinator, it integrates with Gmail, Outlook, Slack, Notion, GitHub, and more, offering plans starting at $10 per month. The service helps founders and operators streamline operations, improve productivity, and focus on high‑value tasks.'
+
 url: https://raw.githubusercontent.com/api-evangelist/operator/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- AI
+- Productivity
+- Automation
+- SaaS
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/operator-llms.txt
+- type: Hosts
+  url: hosts/operator-hosts.yml
+- type: Vendors
+  url: vendors/operator-vendors.yml
+- type: DomainSecurity
+  url: security/operator-domain-security.yml
 - type: Website
   url: https://operator.io/
+- type: DeveloperPortal
+  url: https://operator.io/
+- type: Documentation
+  url: https://operator.io/integrations
+- type: Blog
+  url: https://operator.io/blog
+- type: Pricing
+  url: https://operator.io/pricing
+- type: TermsOfService
+  url: https://operator.io/terms
+- type: PrivacyPolicy
+  url: https://operator.io/privacy
+- type: SignUp
+  url: https://operator.io/sign-in
+- type: Support
+  url: https://operator.io/contact
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Operator.io website provides no developer program or API documentation.
+  evidence:
+    - url: https://operator.io
+      status: 200
+  checked: '2026-10-21'
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

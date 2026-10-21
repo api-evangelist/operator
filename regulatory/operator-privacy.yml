@@ -1,0 +1,9 @@
+generated: '2026-10-21'
+method: searched
+source:
+  - url: https://operator.io/privacy
+    http_status: 200
+    fetched: true
+    quote: "Data Retention\nInstance data, including configurations and workspace files, is retained while your account is active. After a billing suspension, we retain the affected instance data for fourteen days so we can restore it if Stripe confirms payment. After that period, we may delete the instance and its data. If you delete your account, we remove your instance data and personal information within 30 days, except where we must retain certain records longer, such as billing records kept for tax and accounting obligations."
+    section: "Data Retention"
+    note: "Specifies retention periods for instance data and account deletion, indicating a 14‑day hold after suspension and 30‑day deletion after account removal."
